@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Denver: Our Changing City</title>
+<!-- == JavaScript == -->
+<!-- jQuery -->
+<script src="./www/libs/jquery/jquery-1.11.0.min.js"></script>
+<!-- Parallax.js -->
+<link rel="stylesheet" type="text/css" href="./www/libs/parallax/xo.css">
+<script src="./www/libs/parallax/ga.js"></script>
+<script src="./www/libs/parallax/jq.js"></script>
+<script src="./www/libs/parallax/parallax.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./www/libs/parallax/parallax.css"/>
+<!-- Page management with Prallax.js -->
+<script src="./www/js/parallax_index.js"></script>
+<script src="./www/js/parallax_nav.js"></script>
+<!-- Highcharts -->
+<script src="./www/libs/highcharts/js/highcharts.js"></script>
+<script src="./www/libs/highcharts/js/modules/exporting.js"></script>
+<script src="./www/js/highcharts_makechart.js"></script>
+<!-- Extra JS -->
+<script src="./www/js/index.js"></script>
+<!-- == CSS == -->
+<link rel="stylesheet" type="text/css" href="./www/css/main.css"/>
+</head>
+<body>
+	<div class="container">
+		<!-- banner -->
+		<div id="banner">
+			<div id="fromHome" class="banner-left-logo clickable">
+				<h1>Denver</h1>
+				<h2>Our Changing City</h2>
+			</div>
+			<div class="banner-right-logo">
+				<a href="http://www.piton.org/" target="_blank"><img id="piton_logo" src="./www/image/piton_logo.png"></a>
+			</div>
+		</div>
+		<!-- main content -->
+		<div id="index" class="main-page leaguegothic white page">
+			<div id="titlebox" class="f2 lghtgrey">
+				<div class="page-container">
+					<div class="left-text">
+						<h2>A Changing City</h2>
+						<p>
+							Denver’s neighborhoods in transition experienced
+							drastically different types of change over the past
+							decade. In neighborhoods that saw large population
+							increases or decreases, often the population change
+							wasn’t uniform among racial and ethnic groups. 
+						</p>
+						<p class="insert-text">
+						"Most Denver Neighborhoods<br>
+						Have A Racial Majority"
+						</p>
+						<p>
+							Montbello,
+							Denver’s fifth-fastest growing neighborhood, had
+							a growing Hispanic population but shrinking white and
+							black populations. Seven of Denver's 10 fastestshrinking
+							neighborhoods – including Clayton, Baker,
+							Cole, Sunnyside and Highland – actually saw increases
+							in their white populations. Notable exceptions are
+							Hampden and Virginia Village, which had increases in
+							their Hispanic and black populations but decreases in
+							their white and Asian populations.
+						</p>
+					</div>
+					<div class="right-iframe">
+						<img src="./www/image/denver_lodo_cover_img.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Page 1 -->
+		<div id="page1" class="main-page leaguegothic white page">
+			<div id="titlebox" class="f2 lghtgrey">
+				<div class="page-container">
+					<div class="left-text">
+						<h2>Racial Diversity</h2>
+						<p>
+							The 2010 Census data reveal that overall population growth in
+							Denver, as well as the growth of minority groups, was much
+							slower than in the suburban counties. But within Denver these
+							factors varied greatly by neighborhood, according to The Piton
+							Foundation’s analyses of the 2010 Census.
+						</p>
+						<p class="insert-text">
+							"Denver added 46,000 people<br>
+							in the past	decade<br>
+							— one third of them Hispanic and<br>
+							more than half of them white."
+						</p>
+						<p>
+							The population of Denver grew only 8.2% over the decade
+							versus 16.0% for the entire metro area, slower than any other
+							county except Jefferson (1.7%). What’s more, the racial
+							makeup of the city, which was already more diverse than the
+							rest of the metro counties, changed little over the decade
+							while it changed greatly in the suburbs.
+						</p>
+					</div>
+					<div class="right-iframe">
+						<div id="chart1" class="percentageChangeBarChart"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Page 2 -->
+		<div id="page2" class="main-page leaguegothic white page">
+			<div id="titlebox" class="f2 lghtgrey">
+				<div class="page-container">
+					<div class="left-text">
+						<h2>Among Denver's Youngest</h2>
+						<p>
+							Children in metro Denver are more racially diverse than ever
+							before, according to The Piton Foundation’s analyses of the
+							2010 Census data released in spring 2011. While the adult
+							population is 29% non-white, the under-18 age group is 46%
+							non-white, with Hispanics being by far the largest minority
+							group. For the first time, Hispanic children are the majority in
+							two metro counties, Adams and Denver.
+						</p>
+						<p class="insert-text">
+							"Hispanic children now account for<br>
+							one-third of the metro area’s <br>
+							population under 18."
+						</p>
+						<p>
+							Children make up 24.6% of the metro area’s population,
+							compared to 25.5% in 2000. Hispanic children now account for
+							one-third of the metro area’s population under 18, up from
+							one-quarter in 2000. The number of Hispanic children in the
+							metro area grew 47% over the decade, to 221,213 from
+							150,428.
+						</p>
+					</div>
+					<div class="right-iframe">
+						<div id="chart2" class="percentageChangeBarChart"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Left/Right Control -->
+		<div id="leftControl" class="control" style="display: block;">
+			<img id="leftArrow" class="arrow left" style="width: 20px; margin-left: 40px; opacity: 0.19999999999999996;" src="./www/image/arrowleft.png">
+			<div id="leftText" class="dirText" style="float: right; opacity: 0;"></div>
+		</div>
+
+		<div id="rightControl" class="control" style="display: block;">
+			<img id="rightArrow" class="arrow right" style="width: 20px; margin-right: 40px; opacity: 0.19999999999999996;" src="./www/image/arrowright.png">
+			<div id="rightText" class="dirText" style="float: left; opacity: 0;"></div>
+		</div>
+		<!-- footer -->
+		<footer id="footer">
+			<p>
+				© 2014 The Piton Foundation
+				<a href="#">Terms</a>
+				<a href="#">Contact</a>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>

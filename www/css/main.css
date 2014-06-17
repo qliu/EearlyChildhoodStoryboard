@@ -1,0 +1,134 @@
+/* =====================================
+   Colorado's Youngest: A '0-5' Profile
+   ------------------------------------
+   Main CSS
+   ------------------------------------
+   by Qing Liu
+===================================== */
+
+/* universal */
+a {
+	color: rgb(51,51,51);
+	text-decoration: none solid rgb(51,51,51);
+}
+
+a:active, a:hover {
+	color: rgb(138,192,7);
+	text-decoration: underline;
+	outline: 0;
+}
+
+/* body */
+body {
+	color: rgb(51,51,51);
+	font: 13px Helvetica, arial, freesans, clean, sans-serif;
+	margin: 0;
+	overflow: scroll;
+}
+
+/* banner */
+#banner {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(144,193,64);
+	height: 90px;
+	padding: 10px 60px;
+	z-index: 10000;
+}
+
+#banner a {
+	color: rgb(90,90,90);
+}
+
+#banner h1{
+	font-family:'LeagueGothic';
+	font-size: 36px;
+}
+
+#banner h2 {
+	font-family:'LeagueGothic';
+	font-weight: normal;
+	font-size: 28px;
+}
+
+div.banner-left-logo{
+	display: block;
+	float:left;
+}
+
+div.banner-right-logo {
+	display: block;
+	float: right;
+	width: 200px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+#banner a :active, #banner a:hover{
+	color: rgb(90,90,90);
+	text-decoration: none;
+}
+
+/* footer */
+footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	padding: 5px 60px;
+	margin-top: 20px;
+	color: rgb(255,255,255);
+	background-color: rgb(90,90,90);
+}
+
+footer a {
+	color: rgb(144,193,64);
+	margin-left: 20px;
+}
+
+/* main content */
+.page-container {
+	width: 100%;
+}
+
+.page-container h2 {
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 64px;
+	color: rgb(110,110,110);
+}
+
+.page-container p {
+	color: rgb(90,90,90);
+}
+
+.left-text {
+	display: block;
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+
+.right-iframe {
+	display: block;
+	margin-left: 350px;
+}
+
+p.insert-text {
+	color: rgb(138,192,7);
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.percentageChangeBarChart {
+	display: block;
+	width: 60%;
+	height: 80%;
+}
